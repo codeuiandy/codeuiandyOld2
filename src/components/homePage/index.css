@@ -1,0 +1,138 @@
+.about-code-ui-andy {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-name {
+  margin-bottom: 2px !important;
+  color: #95fffe;
+  margin: 50px 0px 10px 0px;
+  font-size: clamp(15px, 5vw, 17px);
+  font-weight: 400;
+  word-spacing: 4px;
+}
+
+.codeuiandy-name {
+  margin: 0px;
+  font-size: clamp(30px, 8vw, 60px);
+  color: #7ef4fc;
+}
+
+.little-codeuiandy-quote {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  line-height: 35px;
+  color: #a8e1e87c;
+  font-size: 22px;
+}
+
+.about-code-ui-andy-bio {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  /* line-height: 30px; */
+  color: #a8e1e8b7;
+  font-size: 16px;
+}
+
+.email-code-ui-andy-button-header {
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.email-code-ui-andy-button-header a {
+  border: 1px solid #7ef4fc;
+  padding: 15px;
+  background-color: transparent;
+  width: 180px;
+  height: 40px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #7ef4fc;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.aboutMeHeader {
+  display: flex;
+  align-items: center;
+  color: #7ef4fc;
+}
+
+.aboutMeHeader .sectionCount {
+  margin-right: 10px;
+  letter-spacing: 3px;
+  color: #5bdde2;
+  display: block;
+  position: relative;
+}
+
+.aboutMeHeader::after {
+  content: "";
+  width: 170px;
+  height: 1px;
+  background-color: #a8e1e8;
+  margin-left: 12px;
+}
+.about-code-ui-sectionWrap {
+  width: 60%;
+}
+.aboutmeSectionDiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.a-photo-of-codeuiandy {
+  width: 35%;
+  height: 300px;
+  background-color: grey;
+  margin-top: 30px;
+  display: block;
+  position: relative;
+  z-index: 4;
+}
+
+.a-photo-of-codeuiandy::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #7ef4fc;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  left: 25px;
+  top: 25px;
+}
+
+.moreInfoAboutCodeuiandy section {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 27px;
+  color: #a8e1e8b7;
+  font-size: 16px;
+}
+
+.moreInfoAboutCodeuiandy h4 {
+  color: #7ef4fc;
+  font-size: 14px;
+  margin-top: 25px;
+  word-spacing: 4px;
+}
+
+.technologyIUse {
+  display: flex;
+}
+.technologyIUse ul {
+  margin-right: 60px;
+  margin-top: 25px;
+  list-style-type: none;
+}
+
+.technologyIUse ul li {
+  margin-bottom: 7px;
+  color: #a8e1e8b7;
+  font-size: 12px;
+}

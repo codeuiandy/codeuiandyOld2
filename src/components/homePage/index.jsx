@@ -5,6 +5,7 @@ import Contact from "./contact/index";
 import Experience from "./experience/index";
 import LandingPage from "./landingPage/index";
 import Work from "./work/index";
+import "./index.css";
 export default function Index() {
   return (
     <Layout>

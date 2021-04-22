@@ -10,7 +10,7 @@
 
 .layout-wrap {
   display: flex;
-  background-color: white;
+  background-color: #a8e1e8;
   flex-direction: column;
   overflow: hidden;
 }
@@ -30,7 +30,7 @@
   overflow-y: scroll;
   width: calc(100vw - 170px);
   padding-top: 20px;
-  padding-right: 45px;
+  padding-right: 160px;
   background-color: #333646;
 }
 
@@ -40,7 +40,7 @@
 
 .app-container-children::-webkit-scrollbar-thumb {
   background-color: darkgrey;
-  outline: 3px solid #64ffda;
+  outline: 3px solid #a8e1e8;
 }
 
 .moveSideBarContentBottom {
@@ -54,7 +54,7 @@
 .sidebar-vr-hr {
   width: 1px;
   height: 90px;
-  background-color: white;
+  background-color: #a8e1e8;
 }
 
 .sidebar-content {
@@ -75,7 +75,7 @@
 }
 
 .conect-with-codeuiandy span i {
-  color: white;
+  color: #a8e1e8;
   font-size: 22px;
   cursor: pointer;
   transition: all 200ms ease;
@@ -83,7 +83,7 @@
 
 .conect-with-codeuiandy span i:hover {
   transform: translateY(-5px) scale(1.1);
-  color: #64ffda;
+  color: #95fffe;
 }
 
 .navbar-content {
@@ -104,15 +104,15 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  margin-top: 5px;
+  margin-top: 2px;
   padding: 2px;
-  border: 1.4px solid white;
+  border: 1.4px solid #a8e1e8;
 }
 
 .navbar-links {
-  margin-top: 13px;
+  margin-top: 19px;
   margin-right: 60px;
-  color: white;
+  color: #a8e1e8;
 }
 
 .navbar-links span {
@@ -121,7 +121,7 @@
 
 .codeuiand-email-container {
   position: absolute;
-  color: white;
+  color: #a8e1e8;
   bottom: 0;
   right: -40px;
   display: flex;
@@ -142,20 +142,20 @@
 .e-codeuiandy a {
   font-size: 13px;
   letter-spacing: 3px;
-  color: white;
+  color: #a8e1e8;
   text-decoration: none;
   transition: all 200ms ease;
 }
 
 .e-codeuiandy a:hover {
   transform: translateY(-5px) scale(1.1);
-  color: #64ffda;
+  color: #95fffe;
 }
 .codeuiandy-nav {
   display: flex;
 }
 .codeuiandy-nav-2 {
-  color: white;
+  color: #a8e1e8;
   padding: 10px;
   font-size: 12px;
 }
@@ -165,11 +165,12 @@
   font-weight: 400;
 }
 .codeuiandy-nav-no {
-  color: #58e1c4;
+  color: #95fffe;
+  margin-right: 1px !important;
 }
 .codeuiandy-nav li a {
   text-decoration: none;
-  color: white;
+  color: #a8e1e8;
   padding: 10px;
   font-size: 12px;
 }
@@ -180,8 +181,8 @@
 }
 
 .resume-codeuiandy {
-  border: 1px solid #58e1c4;
-  color: #58e1c4;
+  border: 1px solid #a8e1e8;
+  color: #a8e1e8;
   padding: 0.5rem 0.5rem;
   border-radius: 4px;
   font-size: 12px;
