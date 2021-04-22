@@ -1,0 +1,153 @@
+.navbar-wrap {
+  background-color: #252734;
+  height: 70px;
+  width: 100vw;
+
+  -webkit-filter: drop-shadow(5px 2px 5px #46495a);
+
+  filter: drop-shadow(5px 2px 5px #46495a);
+}
+
+.layout-wrap {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.main-container {
+  height: calc(100vh - 55px);
+  display: flex;
+}
+
+.sidebar {
+  width: 170px;
+  height: calc(100vh - 55px);
+  background-color: #333646;
+}
+
+.app-container-children {
+  overflow-y: scroll;
+  width: calc(100vw - 170px);
+  padding-top: 20px;
+  padding-right: 45px;
+  background-color: #333646;
+}
+
+.app-container-children::-webkit-scrollbar {
+  width: 8px;
+}
+
+.app-container-children::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 3px solid #64ffda;
+}
+
+.moveSideBarContentBottom {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar-vr-hr {
+  width: 1px;
+  height: 90px;
+  background-color: white;
+}
+
+.sidebar-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  flex-direction: column;
+}
+
+.conect-with-codeuiandy {
+  display: flex;
+  flex-direction: column;
+}
+
+.conect-with-codeuiandy span {
+  margin-bottom: 25px;
+}
+
+.conect-with-codeuiandy span i {
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+.conect-with-codeuiandy span i:hover {
+  transform: translateY(-5px) scale(1.1);
+  color: #64ffda;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.logo-wrap {
+  margin-right: auto;
+  width: 50px;
+  height: 50px;
+  margin-left: 60px;
+}
+
+.logo-wrap img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top: 5px;
+  padding: 2px;
+  border: 1.4px solid white;
+}
+
+.navbar-links {
+  margin-top: 13px;
+  margin-right: 60px;
+  color: white;
+}
+
+.navbar-links span {
+  margin-right: 10px;
+}
+
+.codeuiand-email-container {
+  position: absolute;
+  color: white;
+  bottom: 0;
+  right: -40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 0px;
+  flex-direction: column;
+}
+.codeuiandyEmail-us-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.e-codeuiandy {
+  transform: rotate(90deg) translateY(99px) translateX(-110px);
+}
+
+.e-codeuiandy a {
+  font-size: 13px;
+  letter-spacing: 3px;
+  color: white;
+  text-decoration: none;
+  transition: all 200ms ease;
+}
+
+.e-codeuiandy a:hover {
+  transform: translateY(-5px) scale(1.1);
+  color: #64ffda;
+}
