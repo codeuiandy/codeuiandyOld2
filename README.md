@@ -1,5 +1,5 @@
-# CODE UI ANDY POTFOLIO 😎😎😉😉🐱‍👤😜
-
+# CODE UI ANDY PORTFOLIO 😎😎😉😉🐱‍👤😜
+# CREATIVITY IS NEAREST TO GODLINESS (✨ STAY CREATIVE ✨)
 Readme loading ......
 
 ## Available Scripts
