@@ -151,3 +151,40 @@
   transform: translateY(-5px) scale(1.1);
   color: #64ffda;
 }
+.codeuiandy-nav {
+  display: flex;
+}
+.codeuiandy-nav-2 {
+  color: white;
+  padding: 10px;
+  font-size: 12px;
+}
+.codeuiandy-nav li {
+  margin-right: 20px;
+  list-style: none;
+  font-weight: 400;
+}
+.codeuiandy-nav-no {
+  color: #58e1c4;
+}
+.codeuiandy-nav li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+}
+
+.resume-codeuiandy {
+  border: 1px solid #58e1c4;
+  color: #58e1c4;
+  padding: 0.5rem 0.5rem;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  /* margin-bottom: 30px; */
+}
