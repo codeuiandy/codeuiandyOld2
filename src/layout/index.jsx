@@ -15,7 +15,16 @@ export default function Index({ children }) {
               <Sidebar />
             </div>
 
-            <div className="app-container-children">{children}</div>
+            <div className="app-container-children">
+              <div
+                style={{
+                  margin: "auto",
+                  width: "80%",
+                }}
+              >
+                {children}
+              </div>
+            </div>
           </div>
         </div>
         <div className="codeuiand-email-container">
