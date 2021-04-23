@@ -86,27 +86,58 @@
 }
 .a-photo-of-codeuiandy {
   width: 35%;
-  height: 300px;
-  background-color: grey;
+  height: 350px;
   margin-top: 30px;
   display: block;
   position: relative;
   z-index: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 3px;
+  transition: all 200ms ease-in;
 }
 
-.a-photo-of-codeuiandy::after {
-  content: "";
+.a-photo-of-codeuiandy:hover {
+}
+.codeuiandy-image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 6;
+  transition: all 200ms ease-in;
+  border-radius: 3px;
+}
+
+.codeuiandy-image :hover {
+}
+.codeuiandy-image-border {
   display: block;
   width: 100%;
   height: 100%;
   border: 2px solid #7ef4fc;
   display: block;
   position: absolute;
-  z-index: 2;
-  left: 25px;
-  top: 25px;
+  z-index: 3;
+  left: -25px;
+  top: -25px;
+  border-radius: 3px;
+  transition: all 200ms ease-in;
 }
-
+.animatate-codeuiandy-img-border {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #7ef4fc;
+  display: block;
+  position: absolute;
+  z-index: 3;
+  left: 10px;
+  top: 10px;
+  border-radius: 3px;
+  transition: all 300ms ease-in;
+}
 .moreInfoAboutCodeuiandy section {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -135,4 +166,15 @@
   margin-bottom: 7px;
   color: #a8e1e8b7;
   font-size: 12px;
+}
+.codeuiandy-youtube-header {
+  text-align: center;
+  color: #7ef4fc;
+}
+.codeuiandy-youtube-wrapper {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.codeuiandy-youtube-header-wrapper {
 }
