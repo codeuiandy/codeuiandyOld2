@@ -5,6 +5,7 @@ import Contact from "./contact/index";
 import Experience from "./experience/index";
 import LandingPage from "./landingPage/index";
 import Work from "./work/index";
+import Youtube from "./youtube/index";
 import "./index.css";
 export default function Index() {
   return (
@@ -12,9 +13,10 @@ export default function Index() {
       <div style={{ color: "white" }}>
         <LandingPage />
         <About />
-        <Experience />
+        <Youtube />
+        {/* <Experience />
         <Work />
-        <Contact />
+        <Contact /> */}
       </div>
     </Layout>
   );
