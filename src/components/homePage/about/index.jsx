@@ -18,6 +18,11 @@ const Index = () => {
               HTML & CSS!
             </section>
 
+            <h1 className="aboutMeHeader">
+            <div className="sectionCount">01</div>
+            About Me
+          </h1>
+
             <section className="more-info-code-ui-andy-b">
               Fast-forward to today, and I've had the privilege of working at an
               advertising agency, a start-up, a huge corporation, and a
