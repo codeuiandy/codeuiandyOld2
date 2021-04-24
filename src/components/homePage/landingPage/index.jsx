@@ -9,7 +9,7 @@ const Index = () => {
     tl.from(".my-name", {
       y: -20,
       ease: Power4.ease,
-      // opacity: 0.6,
+      opacity: 0.8,
       duration: 0.4,
       delay: 0.3,
       // stagger: {
@@ -20,7 +20,7 @@ const Index = () => {
     tl.from(".trigerSectionGsap", {
       y: 36,
       ease: Power4.ease,
-      // opacity: 0.6,
+      opacity: 1,
       duration: 0.4,
       delay: 0.4,
       // stagger: {
