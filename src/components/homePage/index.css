@@ -330,3 +330,94 @@
   font-size: 20px;
   margin-left: 10px;
 }
+
+.contact-code-ui-andy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.getIntOuch {
+  color: #7ef4fc;
+  font-size: clamp(40px, 5vw, 60px);
+  font-weight: 600;
+}
+
+.contact-code-ui-andy {
+  margin-top: 20px;
+}
+.contact-code-ui-andy p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.sayHiBtnF {
+  margin-top: 60px;
+}
+
+.sayHiBtnF a {
+  border: 1px solid #7ef4fc;
+  padding: 15px;
+  background-color: transparent;
+  width: 270px;
+  height: 80px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #7ef4fc;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.appFooter {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.appFooter p {
+  color: #5bdde291;
+  font-size: 13px;
+}
+
+.appFooter p span {
+  color: #7ef4fc;
+  font-size: 13px;
+}
+
+.fIconAn {
+  transform: rotate(43deg);
+  -webkit-animation: moveSkillIcon 500ms ease infinite;
+  animation: moveSkillIcon 500ms ease infinite;
+}
+
+@-webkit-keyframes moveSkillIcon {
+  0% {
+    transform: translateX(-20px);
+    color: green;
+  }
+
+  50% {
+    color: green !important;
+  }
+
+  100% {
+    transform: translateX();
+  }
+}
+
+@keyframes moveSkillIcon {
+  0% {
+    transform: translateX(-20px);
+  }
+
+  100% {
+    transform: translateX();
+  }
+}

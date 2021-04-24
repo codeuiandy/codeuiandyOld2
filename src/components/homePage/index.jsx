@@ -18,6 +18,13 @@ export default function Index() {
         {/* <Experience />
         <Work />
         <Contact /> */}
+        <Contact />
+
+        <div className="appFooter">
+          <p>
+            Website Design Inspired By <span>Brittany Chiang</span>
+          </p>
+        </div>
       </div>
     </Layout>
   );
