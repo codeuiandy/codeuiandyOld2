@@ -177,7 +177,7 @@ export default function App() {
                   </div>
 
                   <div className="projectActions">
-                    <a href="/">
+                    <a href="https://q-qoin.herokuapp.com/">
                       <i class="fas fa-tv"></i>
                     </a>
                     <a href="https://github.com/codeuiandy" target="blank">

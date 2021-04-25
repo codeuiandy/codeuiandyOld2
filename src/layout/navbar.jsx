@@ -1,5 +1,6 @@
 import React from "react";
 import CodeUiandyLogo from "../assets/images/codeuiandy-logo.png";
+import codeuiandyResume from "../assets/codeuiandy-resume.pdf";
 export default function Navbar() {
   return (
     <div>
@@ -11,28 +12,29 @@ export default function Navbar() {
         <div className="navbar-links">
           <ul className="codeuiandy-nav">
             <li>
-              <a href="">
+              <a href="#about">
                 <span className="codeuiandy-nav-no">01.</span> About
               </a>
             </li>
+
             <li>
-              <a href="">
-                <span className="codeuiandy-nav-no">02.</span> Experience
+              <a href="#projects">
+                <span className="codeuiandy-nav-no">02.</span> Projects
               </a>
             </li>
             <li>
-              <a href="">
-                <span className="codeuiandy-nav-no">03.</span> Work
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <span className="codeuiandy-nav-no">04.</span> Contact
+              <a href="#contact">
+                <span className="codeuiandy-nav-no">03.</span> Contact
               </a>
             </li>
           </ul>
-
-          <span className="resume-codeuiandy">Resume</span>
+          <a
+            style={{ textDecoration: "none" }}
+            href={codeuiandyResume}
+            download
+          >
+            <span className="resume-codeuiandy"> Resume</span>
+          </a>
         </div>
       </div>
     </div>

@@ -3,7 +3,7 @@ import React from "react";
 const Index = () => {
   return (
     <div>
-      <div className="contact-code-ui-andy">
+      <div className="contact-code-ui-andy element" name="">
         <h1 className="getIntOuch">Get In Touch</h1>
         <p>
           Do you need a professional UI Developer, to develop{" "}
