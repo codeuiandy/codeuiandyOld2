@@ -20,16 +20,17 @@ const Index = () => {
           </h1>
           <div className="moreInfoAboutCodeuiandy">
             <section className="more-info-code-ui-andy">
-              Hello! My name is Okeke Andrew Nwabueze, I dont have the ability
-              to control all human but i have one super power to command one of
-              human greatest acchivement which is the computer which makes me
-              feel like a god. My interest in web development started back in
-              2012 when I decided to try editing some images and my big bro saw
-              it was nice and adviced me to go into web developement
+              Hello! My name is Okeke Andrew Nwabueze. I don't have the ability
+              to control humans but I have one superpower; to command one of
+              humans' greatest achievement: the computer, which makes me feel
+              like a god. My interest in web development started back in 2016
+              when I edited some images. My brother who is a senior backend
+              developer, was amazed and he advised me to go into web
+              developement and Boom! Here I Am!!!
             </section>
 
             <h4 className="more-info-code-ui-andy-c">
-              Here are some of my super powers
+              Here are some of my superpowers
             </h4>
 
             <div className="technologyIUse">

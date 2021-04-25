@@ -56,17 +56,16 @@ const Index = () => {
             <span style={{ color: "#7ef4fca6" }}>
               I’ve learned I don’t know anything.
             </span>{" "}
-            Have also learned that people will pay for what I know{" "}
-            <span>tremendously. </span>And building things for the web is
-            something i can do while sleeping.
+            I’ve also learned that people will pay for what I know{" "}
+            <span>tremendously, </span> and building things for the web is
+            something I can do while sleeping.
           </span>
 
           <span className="about-code-ui-andy-bio">
-            I'm a Nigeria-based software engineer who <br />
-            specializes in building (and occasionally designing) exceptional
-            digital experiences.
-            <br /> Currently, I'm an engineer at Upstatement focused on building
-            accessible, human-centered products.
+            I'm a Nigeria-based Front-End Engineer who specializes in creating
+            exceptional digital experiences. Currently, I'm an engineer at Soar
+            Digital, and my modus operandi is making the web a better place and
+            accessible to all users.
           </span>
 
           <div className="email-code-ui-andy-button-header">

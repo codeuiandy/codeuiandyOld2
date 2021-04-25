@@ -29,7 +29,7 @@ export default function App() {
 
         <div className="projectsContainer">
           <Carousel
-            autoPlay={true}
+            autoPlay={false}
             animation="slide"
             indicators={false}
             navButtonsAlwaysVisible={true}
@@ -49,13 +49,13 @@ export default function App() {
                   </div>
 
                   <div className="aboutProject">
-                    <p>
-                      A web app for visualizing personalized Spotify data. View
-                      your top artists, top tracks, recently played tracks, and
-                      detailed audio information about each track. Create and
-                      save new playlists of recommended tracks based on your
-                      existing playlists and more. Sort through your top repos
-                      by number of stars, forks, and size.
+                    <p style={{ marginBottom: "4.7%" }}>
+                      An online digital bank which allows you to make payments,
+                      buy airtime, pay for subscriptions or request for loans
+                      seamlessly without leaving the comfort of your home. Its
+                      flexibility allows companies to integrate salary payments
+                      into the platform and employees can calculate their
+                      payments.
                     </p>
                   </div>
 
@@ -87,13 +87,13 @@ export default function App() {
                   </div>
 
                   <div className="aboutProject">
-                    <p>
-                      A web app for visualizing personalized Spotify data. View
-                      your top artists, top tracks, recently played tracks, and
-                      detailed audio information about each track. Create and
-                      save new playlists of recommended tracks based on your
-                      existing playlists and more. Sort through your top repos
-                      by number of stars, forks, and size.
+                    <p style={{ marginBottom: "0.7%" }}>
+                      A digital newspaper stand where the users have access to
+                      newspaper publications, magazines and books based on their
+                      subscription plan. They can also like, make comments or
+                      share newspaper links to their favorite social media
+                      platforms. Vendors and Publishers also have an admin
+                      system to get market and sales info in real-time.
                     </p>
                   </div>
 
@@ -125,13 +125,12 @@ export default function App() {
                   </div>
 
                   <div className="aboutProject">
-                    <p>
-                      A web app for visualizing personalized Spotify data. View
-                      your top artists, top tracks, recently played tracks, and
-                      detailed audio information about each track. Create and
-                      save new playlists of recommended tracks based on your
-                      existing playlists and more. Sort through your top repos
-                      by number of stars, forks, and size.
+                    <p style={{ marginBottom: "5%" }}>
+                      A social media platform that brings career women together.
+                      It is subscription based and its users can request for
+                      mentorship, participate in online forums and get weekly
+                      content for growth in their respective careers. Users can
+                      also get loans and grants for their businesses.
                     </p>
                   </div>
 
@@ -163,13 +162,10 @@ export default function App() {
                   </div>
 
                   <div className="aboutProject">
-                    <p>
-                      A web app for visualizing personalized Spotify data. View
-                      your top artists, top tracks, recently played tracks, and
-                      detailed audio information about each track. Create and
-                      save new playlists of recommended tracks based on your
-                      existing playlists and more. Sort through your top repos
-                      by number of stars, forks, and size.
+                    <p style={{ marginBottom: "13%" }}>
+                      An online platform for trading and exchanging currency and
+                      cryto-currency. The users have wallets which keep track of
+                      their balance.
                     </p>
                   </div>
 
@@ -201,13 +197,11 @@ export default function App() {
                   </div>
 
                   <div className="aboutProject">
-                    <p>
-                      A web app for visualizing personalized Spotify data. View
-                      your top artists, top tracks, recently played tracks, and
-                      detailed audio information about each track. Create and
-                      save new playlists of recommended tracks based on your
-                      existing playlists and more. Sort through your top repos
-                      by number of stars, forks, and size.
+                    <p style={{ marginBottom: "9%" }}>
+                      An admin management system for the AGS mobile app which is
+                      available on the Apple and Google Play Store. AGS is an
+                      investment platform that allows its users to invest in
+                      Agro and Agro-allied businesses.
                     </p>
                   </div>
 
@@ -234,7 +228,7 @@ export default function App() {
           <div className="viewAllProject">
             <a href="https://github.com/codeuiandy" target="blank">
               {" "}
-              View All Project
+              View All Projects
             </a>
             <i class="fas fa-arrow-right"></i>
           </div>
