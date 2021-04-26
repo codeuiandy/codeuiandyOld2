@@ -10,7 +10,7 @@
 
 .layout-wrap {
   display: flex;
-  background-color: #a8e1e8;
+  background-color: #333646;
   flex-direction: column;
   overflow: hidden;
 }
@@ -28,7 +28,7 @@
 
 .app-container-children {
   overflow-y: scroll;
-  width: calc(100vw - 170px);
+  /* width: calc(100vw - 170px); */
   padding-top: 20px;
   padding-right: 160px;
   background-color: #333646;
@@ -195,4 +195,11 @@
   font-size: 12px;
   font-weight: 400;
   /* margin-bottom: 30px; */
+}
+
+@media (min-width: 2440px) {
+  .app-container-children {
+    /* padding-left: 300px;
+    padding-right: 300px; */
+  }
 }

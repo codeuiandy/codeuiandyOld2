@@ -10,17 +10,17 @@ code {
     monospace;
 }
 
-html {
-  overflow: hidden;
-  height: 100vh;
-  width: 100vw;
+/* html {
+  overflow: hidden !important;
+  height: 100vh !important;
+  width: 100vw !important;
   scroll-behavior: smooth;
-}
+} */
 
 body {
-  overflow: hidden;
-  height: 100vh;
-  width: 100vw;
+  overflow: hidden !important;
+  height: 100vh !important;
+  width: 100vw !important;
   scroll-behavior: smooth;
 }
 
