@@ -24,7 +24,7 @@ export default function App() {
       <section class="codeuiandy-projects">
         <h1 className="aboutMeHeader inWl">
           <div className="sectionCount">02</div>
-          Projects
+          Project
         </h1>
 
         <div className="projectsContainer">
