@@ -10,7 +10,7 @@
 
 .layout-wrap {
   display: flex;
-  background-color: #a8e1e8;
+  background-color: #333646;
   flex-direction: column;
   overflow: hidden;
 }
@@ -28,10 +28,17 @@
 
 .app-container-children {
   overflow-y: scroll;
-  width: calc(100vw - 170px);
+  /* width: calc(100vw - 170px); */
   padding-top: 20px;
   padding-right: 160px;
   background-color: #333646;
+  margin: 0px auto;
+  width: 100%;
+  max-width: 1600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-behavior: smooth;
 }
 
 .app-container-children::-webkit-scrollbar {
@@ -136,7 +143,7 @@
 }
 
 .e-codeuiandy {
-  transform: rotate(90deg) translateY(99px) translateX(-110px);
+  transform: rotate(90deg) translateY(110px) translateX(-110px);
 }
 
 .e-codeuiandy a {
@@ -188,4 +195,11 @@
   font-size: 12px;
   font-weight: 400;
   /* margin-bottom: 30px; */
+}
+
+@media (min-width: 2440px) {
+  .app-container-children {
+    /* padding-left: 300px;
+    padding-right: 300px; */
+  }
 }

@@ -21,9 +21,9 @@
 .little-codeuiandy-quote {
   margin-top: 10px;
   margin-bottom: 15px;
-  line-height: 35px;
-  color: #a8e1e87c;
-  font-size: 22px;
+  line-height: 30px;
+  color: #7eccd6dc;
+  font-size: 19px;
 }
 
 .about-code-ui-andy-bio {
@@ -75,6 +75,7 @@
   background-color: #a8e1e8;
   margin-left: 12px;
 }
+
 .about-code-ui-sectionWrap {
   width: 60%;
 }
@@ -198,4 +199,236 @@
 .codeuiandy-youtube-yhumbnail {
   width: 100%;
   height: 100%;
+}
+
+.codeuiandy-projects {
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.projectsContainer {
+  margin-top: 30px;
+  width: 100%;
+  height: 500px;
+}
+
+.my-project-img {
+  /* width: 45%; */
+  height: 350px;
+  overflow: hidden;
+}
+.my-project-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.trigerSectionGsap {
+  display: flex;
+  flex-direction: column;
+}
+
+.overlaytext-p-container {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlaytext-p-container-inn {
+  position: absolute;
+  width: 60%;
+  height: 260px;
+  background-color: #333646;
+  -webkit-filter: drop-shadow(4px 12px 7px grey);
+  filter: drop-shadow(4px 12px 7px grey);
+  top: 50px;
+  z-index: 50000;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1.6px solid #7ef4fc;
+  outline: 0.5px solid #7ef4fc;
+  overflow: hidden;
+}
+
+.myProjectName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.myProjectName h1 {
+  color: #95fffdc7;
+  font-size: 16px;
+  word-spacing: 4px;
+}
+.aboutProject {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  width: 100%;
+}
+.aboutProject p {
+  width: 90%;
+  max-width: 444px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #a8e1e8b7;
+}
+.projectTechUsed {
+  display: flex;
+  margin-top: 5%;
+  justify-content: center;
+  align-items: center;
+}
+.projectTechUsed span {
+  margin-right: 10px;
+  font-size: 12px;
+  color: #95fffdc7;
+}
+
+.projectActions {
+  margin-left: 12px;
+  position: absolute;
+  right: 0;
+  margin-right: 30px;
+  margin-top: -23px;
+}
+
+.projectActions i {
+  margin-right: 10px;
+  color: #7ef4fc;
+  font-size: 20px;
+}
+
+.viewAllProject {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #7ef4fc;
+  margin-top: 25px;
+}
+.inWl::after {
+  width: 290px;
+}
+.viewAllProject::before {
+  content: "";
+  width: 290px;
+  height: 1px;
+  background-color: #a8e1e8;
+  margin-right: 12px;
+}
+
+.viewAllProject a {
+  color: #7ef4fc;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.viewAllProject i {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.contact-code-ui-andy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.getIntOuch {
+  color: #7ef4fc;
+  font-size: clamp(40px, 5vw, 60px);
+  font-weight: 600;
+}
+
+.contact-code-ui-andy {
+  margin-top: 20px;
+}
+.contact-code-ui-andy p {
+  margin-top: 10px;
+  text-align: center;
+  max-width: 460px;
+  color: #a8e1e8b7;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.highlightGetImT {
+  color: #7ef4fc;
+  font-size: 16px;
+}
+
+.sayHiBtnF {
+  margin-top: 60px;
+}
+
+.sayHiBtnF a {
+  border: 1px solid #7ef4fc;
+  padding: 15px;
+  background-color: transparent;
+  width: 270px;
+  height: 80px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #7ef4fc;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.appFooter {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.appFooter p {
+  color: #5bdde291;
+  font-size: 13px;
+}
+
+.appFooter p span {
+  color: #7ef4fc;
+  font-size: 13px;
+}
+
+.fIconAn {
+  transform: rotate(43deg);
+  -webkit-animation: moveSkillIcon 500ms ease infinite;
+  animation: moveSkillIcon 500ms ease infinite;
+}
+
+@-webkit-keyframes moveSkillIcon {
+  0% {
+    transform: translateX(-20px);
+    color: green;
+  }
+
+  50% {
+    color: green !important;
+  }
+
+  100% {
+    transform: translateX();
+  }
+}
+
+@keyframes moveSkillIcon {
+  0% {
+    transform: translateX(-20px);
+  }
+
+  100% {
+    transform: translateX();
+  }
 }
