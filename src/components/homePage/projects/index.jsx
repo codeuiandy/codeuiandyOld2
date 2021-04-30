@@ -7,7 +7,7 @@ import e9to5chick from "../../../assets/images/9to5chick.png";
 import qCoin from "../../../assets/images/qCoin.png";
 import ags from "../../../assets/images/ags.png";
 import Carousel from "react-material-ui-carousel";
-import { Paper, Button } from "@material-ui/core";
+import { FaGithub, FaTv } from "react-icons/fa";
 gsap.registerPlugin(ScrollTrigger);
 
 export default function App() {
@@ -24,7 +24,7 @@ export default function App() {
       <section class="codeuiandy-projects">
         <h1 className="aboutMeHeader inWl">
           <div className="sectionCount">02</div>
-          Project
+          Projects
         </h1>
 
         <div className="projectsContainer">
@@ -68,11 +68,11 @@ export default function App() {
 
                   <div className="projectActions">
                     <a href="http://ibank-frontend.s3-website.us-east-2.amazonaws.com/">
-                      <i class="fas fa-tv"></i>
+                      <FaTv />
                     </a>
                     <a href="https://github.com/codeuiandy" target="blank">
                       {" "}
-                      <i class="fab fa-github"></i>
+                      <FaGithub />
                     </a>
                   </div>
                 </div>
@@ -106,11 +106,11 @@ export default function App() {
 
                   <div className="projectActions">
                     <a href="https://app.thenewspaperstand.com/" target="blank">
-                      <i class="fas fa-tv"></i>
+                      <FaTv />>
                     </a>
                     <a href="https://github.com/codeuiandy" target="blank">
                       {" "}
-                      <i class="fab fa-github"></i>
+                      <FaGithub />
                     </a>
                   </div>
                 </div>
@@ -143,11 +143,11 @@ export default function App() {
 
                   <div className="projectActions">
                     <a href="https://app.9to5chick.com/login">
-                      <i class="fas fa-tv"></i>
+                      <FaTv />
                     </a>
                     <a href="https://github.com/codeuiandy" target="blank">
                       {" "}
-                      <i class="fab fa-github"></i>
+                      <FaGithub />
                     </a>
                   </div>
                 </div>
@@ -178,11 +178,11 @@ export default function App() {
 
                   <div className="projectActions">
                     <a href="https://q-qoin.herokuapp.com/">
-                      <i class="fas fa-tv"></i>
+                      <FaTv />
                     </a>
                     <a href="https://github.com/codeuiandy" target="blank">
                       {" "}
-                      <i class="fab fa-github"></i>
+                      <FaGithub />
                     </a>
                   </div>
                 </div>
@@ -214,11 +214,11 @@ export default function App() {
 
                   <div className="projectActions">
                     <a href="https://ags-admin.codeuiandy.vercel.app/">
-                      <i class="fas fa-tv"></i>
+                      <FaTv />
                     </a>
                     <a href="https://github.com/codeuiandy" target="blank">
                       {" "}
-                      <i class="fab fa-github"></i>
+                      <FaGithub />
                     </a>
                   </div>
                 </div>

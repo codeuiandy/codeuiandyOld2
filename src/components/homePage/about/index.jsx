@@ -1,6 +1,6 @@
 import React, { useRef, ref } from "react";
 import codeUiAndyImg from "../../../assets/images/image-of-code-ui-andy.jpg";
-
+import { FaMagic } from "react-icons/fa";
 const Index = () => {
   const targetImageBorder = useRef();
   const moveImageBorder = () => {
@@ -37,41 +37,39 @@ const Index = () => {
               <ul>
                 <li>
                   {" "}
-                  <i class="fa fa-magic fIconAn" aria-hidden="true"></i> HTML
+                  <FaMagic className="fIconAn" />
+                  HTML
                 </li>
                 <li>
                   {" "}
-                  <i class="fa fa-magic fIconAn" aria-hidden="true"></i> CSS
+                  <FaMagic className="fIconAn" /> CSS
                 </li>
                 <li>
-                  <i class="fa fa-magic fIconAn" aria-hidden="true"></i>{" "}
-                  JAVASCRIPT
+                  <FaMagic className="fIconAn" /> JAVASCRIPT
                 </li>
 
                 <li>
-                  <i class="fa fa-magic fIconAn" aria-hidden="true"></i> REDUX
+                  <FaMagic className="fIconAn" /> REDUX
                 </li>
               </ul>
 
               <ul>
                 <li>
                   {" "}
-                  <i class="fa fa-magic fIconAn" aria-hidden="true"></i>{" "}
-                  REACT.JS
+                  <FaMagic className="fIconAn" /> REACT.JS
                 </li>
 
                 <li>
                   {" "}
-                  <i class="fa fa-magic fIconAn" aria-hidden="true"></i> REACT
-                  Native
+                  <FaMagic className="fIconAn" /> REACT Native
                 </li>
                 <li>
                   {" "}
-                  <i class="fa fa-magic fIconAn" aria-hidden="true"></i> NEXT.JS
+                  <FaMagic className="fIconAn" /> NEXT.JS
                 </li>
                 <li>
                   {" "}
-                  <i class="fa fa-magic fIconAn" aria-hidden="true"></i> GATSBY
+                  <FaMagic className="fIconAn" /> GATSBY
                 </li>
               </ul>
             </div>
