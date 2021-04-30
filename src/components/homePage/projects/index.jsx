@@ -100,7 +100,7 @@ export default function App() {
                   <div className="projectTechUsed">
                     <span>CSS</span>
                     <span>Chart.js</span>
-                    <span>Redux</span>
+                    <span>Recoil</span>
                     <span>React.js</span>
                   </div>
 
@@ -171,7 +171,7 @@ export default function App() {
 
                   <div className="projectTechUsed">
                     <span>CSS</span>
-                    <span>Chart.js</span>
+
                     <span>Redux</span>
                     <span>React.js</span>
                   </div>
