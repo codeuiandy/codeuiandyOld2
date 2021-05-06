@@ -1,6 +1,6 @@
 import React from "react";
 import CodeUiandyLogo from "../assets/images/codeuiandy-logo.png";
-import codeuiandyResume from "../assets/codeuiandy-resume.pdf";
+import codeuiandyResume from "../assets/frontend-developer-codeuiandy-Resume-(may).pdf";
 export default function Navbar() {
   return (
     <div>

@@ -67,7 +67,7 @@ export default function App() {
                   </div>
 
                   <div className="projectActions">
-                    <a href="http://ibank-frontend.s3-website.us-east-2.amazonaws.com/">
+                    <a href="https://ibank.paysync.co/">
                       <FaTv />
                     </a>
                     <a href="https://github.com/codeuiandy" target="blank">
