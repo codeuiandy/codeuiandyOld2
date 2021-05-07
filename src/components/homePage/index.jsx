@@ -41,7 +41,8 @@ export default function Index() {
 
         <div className="appFooter">
           <p>
-            Website Design Inspired By <span>Brittany Chiang</span>
+            Website Design Implemented by <span>Code UI Andy</span>, Design
+            Inspired By <span>Brittany Chiang</span>
           </p>
         </div>
       </div>

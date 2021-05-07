@@ -54,9 +54,9 @@ const Index = () => {
           <h1 className="codeuiandy-name">CODE UI ANDY</h1>
           <span className="little-codeuiandy-quote">
             <span style={{ color: "#7ef4fca6" }}>
-              I’ve learned I don’t know anything.
+              I’ve Learnt I don’t know anything.
             </span>{" "}
-            I’ve also learned that people will pay for what I know{" "}
+            I’ve also Learnt that people will pay for what I know{" "}
             <span>tremendously, </span> and building things for the web is
             something I can do while sleeping.
           </span>
