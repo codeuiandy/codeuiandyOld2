@@ -10,8 +10,16 @@
   </a>
 
 </br>
-<code> I am a frontend developer with a years of experience in building websites and web applications. I specialize in advanced javascript .
-I mostly work with react . </code>
+<code>Who is Andrew (Code UI Andy)<br/> Andrew is curious and likes to explore new ideas and approaches.
+When faced with a problem, Andrew tends to think out of the box
+and enjoys considering a wide range of alternatives. Andrew looks
+for opportunities to learn and thrive in roles which offer them
+novelty and variety. On the flip side, Andrew may get bored in
+routines and at times may be perceived as overly optimistic or
+having impractical ideas.
+Andrew is comfortable in dealing with numerical data to understand
+problems and solve them. Andrew tends to be factual and uses
+evidence to support their hypothesis. </code>
 
 </br>
 </br>
